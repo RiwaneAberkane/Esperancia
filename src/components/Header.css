@@ -1,0 +1,80 @@
+/* Style général de l'en-tête */
+.header {
+    position: relative;
+    height: 100vh; /* Pleine hauteur de l'écran */
+    background-image: url('../../public/headerpics.webp'); /* Lien de ton image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    z-index: 1; /* Assure que le contenu reste au-dessus */
+    overflow: hidden; /* Empêche les débordements éventuels */
+  }
+  
+  .header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Noir avec 40% d'opacité */
+    z-index: -1; /* Place derrière le contenu de .header */
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Noir -> Transparent */
+    height: 80px;
+  }
+
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    color: #ffd700; /* Couleur dorée au survol */
+  }
+  
+  /* Contenu principal */
+  .header-content {
+    margin-top: 300px;
+    padding: 20px;
+  }
+  
+  .header-title {
+    font-size: 6rem;
+    margin-bottom: 10px;
+  }
+  
+  .header-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
