@@ -36,8 +36,17 @@
     padding: 20px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); /* Noir -> Transparent */
     height: 80px;
+    align-items: center;
+    justify-content: space-around;
   }
 
+  .navbar h2{
+    font-size: 3em;
+  }
+
+  ul span{
+    color: #ffd700;
+  }
   
   .navbar ul {
     list-style: none;

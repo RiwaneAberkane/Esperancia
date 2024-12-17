@@ -6,6 +6,13 @@ const Header = () => {
         <header className="header">
             <nav className="navbar">
                 <ul>
+                    <li><h2>ESPE<span>RANCIA</span></h2></li>
+                </ul>
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
