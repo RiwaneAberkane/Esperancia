@@ -92,3 +92,31 @@ ul span {
   font-size: 1.5rem;
   font-weight: 300;
 }
+
+.buttons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.volunter {
+  font-size: 18px;
+  line-height: 46px;
+  border-radius: 30px;
+  border-width: 2px;
+  color: #ffd700;
+  background-color: transparent;
+  border-color: #ffd700;
+  width: 222px;
+}
+
+.donate {
+  font-size: 18px;
+  line-height: 46px;
+  border-radius: 30px;
+  border-width: 2px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  width: 150px;
+}

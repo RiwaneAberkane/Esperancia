@@ -20,6 +20,10 @@ const Header = () => {
             <div className="header-content">
                 <h1 className="header-title">One effort, endless possibilities</h1>
                 <p className="header-text">Aidons ensemble à construire un avenir meilleur pour les enfants.</p>
+                <div className="buttons">
+                    <button className="volunter">Become a Volunteer</button>
+                    <button className="donate">Donate Now</button>
+                </div>
             </div>
         </header>
     );
