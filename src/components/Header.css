@@ -42,7 +42,7 @@
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   /* Noir -> Transparent */
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .navbar h2 {
@@ -108,6 +108,7 @@ ul span {
   background-color: transparent;
   border-color: #ffd700;
   width: 222px;
+  cursor: pointer;
 }
 
 .donate {
@@ -119,4 +120,5 @@ ul span {
   background-color: transparent;
   border-color: white;
   width: 150px;
+  cursor: pointer;
 }
