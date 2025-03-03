@@ -1,0 +1,21 @@
+[
+    {
+      "image": "/assets/assets3.png",
+      "title": "Collect Donation",
+      "subtitle": "Help us by donating",
+      "description": "There are many variations of passage of Lorem Ipsum available, but the majority have suffered alteration"
+    },
+    {
+      "image": "../assets/assets1.png",
+      "title": "Fundrising",
+      "subtitle": "Collect fund over the world",
+      "description": "There are many variations of passage of Lorem Ipsum available, but the majority have suffered alteration"
+    },
+    {
+      "image": "../assets/assets2.png",
+      "title": "Volontaria",
+      "subtitle": "Become a volunteer",
+      "description": "There are many variations of passage of Lorem Ipsum available, but the majority have suffered alteration"
+    }
+  ]
+  

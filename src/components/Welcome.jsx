@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../assets/headerpics.webp'
+import image from '../assets/welcome.webp'
 import './Welcome.css'
 
 function Welcome() {
