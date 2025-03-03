@@ -8,7 +8,7 @@
   
   /* Le fond bleu sur 50% du haut */
   .headerNonProfit {
-    background-color: #ffd700;
+    background-color: #ffd900dd;
     height: 300px;
   }
   
@@ -32,8 +32,8 @@
   /* Les cartes alignées horizontalement */
   .card {
     background-color: white;
-    width: 420px;
-    height: 400px;
+    width: 380px;
+    height: 430px;
     margin: 0 10px;
     display: flex;
     justify-content: center;
