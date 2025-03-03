@@ -2,22 +2,21 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 75vh;
+    border-top: 2px solid black;
   }
   
   /* Le fond bleu sur 50% du haut */
   .headerNonProfit {
     background-color: #ffd700;
-    height: 350px;
+    height: 300px;
   }
   
   /* Titre centré dans le haut */
   .title {
     color: white;
-    font-size: 39px;
+    font-size: 49px;
     text-align: center;
-    padding-top: 20px;
-    font-weight: bold;
   }
   
   /* Le fond blanc en bas */
@@ -26,13 +25,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 0%;
+    height: 10%;
+    padding-top: 30px;
   }
   
   /* Les cartes alignées horizontalement */
   .card {
     background-color: white;
-    width: 350px;
+    width: 420px;
     height: 400px;
     margin: 0 10px;
     display: flex;

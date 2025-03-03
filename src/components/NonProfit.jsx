@@ -1,6 +1,7 @@
 import React from 'react';
 import './NonProfit.css';
 
+
 const NonProfit = () => {
     return (
         <div className="container">

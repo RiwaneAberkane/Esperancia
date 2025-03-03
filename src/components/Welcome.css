@@ -1,0 +1,44 @@
+.welcome{
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    width: 69%;
+}
+
+img{
+    width: 600px;
+    height: 440px;
+}
+
+h4{
+    font-size: 50px;
+    margin: 0;
+    color: #212121;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.moreAboutUs{
+    margin-top: 20px;
+    width: 30%;
+    height: 60px;
+    background-color: #ffd700;
+    color: white;
+    cursor: pointer;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #ffd700; /* Soulignement jaune */
+    text-decoration-thickness: 5px; /* Épaisseur du soulignement */
+    text-underline-offset: 15px; /* Espacement entre le texte et le soulignement */
+  }
+  
+  
+.esperanciaSpan{
+    color: #ffd700;
+}

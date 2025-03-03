@@ -2,7 +2,7 @@
 .header {
   position: relative;
   height: 980px;
-  background-image: url('../../public/headerpics.webp');
+  background-image: url('../assets/headerpics.webp');
   background-size: cover;
   background-position: center;
   display: flex;
