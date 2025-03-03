@@ -1,0 +1,44 @@
+/* Container principal qui couvre tout */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Le fond bleu sur 50% du haut */
+  .headerNonProfit {
+    background-color: #ffd700;
+    height: 350px;
+  }
+  
+  /* Titre centré dans le haut */
+  .title {
+    color: white;
+    font-size: 39px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Le fond blanc en bas */
+  .cards-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0%;
+  }
+  
+  /* Les cartes alignées horizontalement */
+  .card {
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
