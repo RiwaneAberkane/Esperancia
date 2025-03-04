@@ -1,68 +1,68 @@
 /* Container principal qui couvre tout */
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 70vh;
-    border-top: 2px solid black;
-  }
-  
-  /* Le fond bleu sur 50% du haut */
-  .headerNonProfit {
-    background-color: #ffd900dd;
-    height: 300px;
-  }
-  
-  /* Titre centré dans le haut */
-  .title {
-    color: white;
-    font-size: 49px;
-    text-align: center;
-  }
-  
-  /* Le fond blanc en bas */
-  .cards-container {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30%;
-    padding-top: 80px;
-  }
-  
-  /* Les cartes alignées horizontalement */
-  .card {
-    background-color: white;
-    width: 380px;
-    height: 430px;
-    margin: 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 20px;
-  }
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  border-top: 2px solid black;
+}
 
-  .card h4{
-    color: #323232;
-    font-size: 35px;
-    margin: 0;
-  }
-  
-  .card h5{
-    color: #323232;
-    font-size: 28px;
-    margin: 0;
-  }
-  
-  .card img{
-    width: 100px;
-    height: 100px;
-    padding-bottom: 30px;
-  }
+/* Le fond bleu sur 50% du haut */
+.headerNonProfit {
+  background-color: #ffd900dd;
+  height: 300px;
+}
 
-  .cards-wrapper{
-    height: 0px;
-  }
+/* Titre centré dans le haut */
+.title {
+  color: white;
+  font-size: 49px;
+  text-align: center;
+}
+
+/* Le fond blanc en bas */
+.cards-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  padding-top: 80px;
+}
+
+/* Les cartes alignées horizontalement */
+.card {
+  background-color: white;
+  width: 380px;
+  height: 430px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.card h4 {
+  color: #323232;
+  font-size: 35px;
+  margin: 0;
+}
+
+.card h5 {
+  color: #323232;
+  font-size: 28px;
+  margin: 0;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 30px;
+}
+
+.cards-wrapper {
+  height: 0px;
+}
