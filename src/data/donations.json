@@ -1,0 +1,24 @@
+[
+    {
+      "image": "https://via.placeholder.com/300",
+      "title": "Help Build a School",
+      "description": "Support our mission to build a school for children in need.",
+      "raised": 48000,
+      "goal": 75000
+    },
+    {
+      "image": "https://via.placeholder.com/300",
+      "title": "Clean Water for Villages",
+      "description": "Provide clean and safe drinking water to remote villages.",
+      "raised": 5000,
+      "goal": 50000
+    },
+    {
+      "image": "https://via.placeholder.com/300",
+      "title": "Food for the Homeless",
+      "description": "Help provide meals for homeless individuals in urban areas.",
+      "raised": 25000,
+      "goal": 40000
+    }
+  ]
+  
