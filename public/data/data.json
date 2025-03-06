@@ -1,6 +1,6 @@
 [
     {
-      "image": "/assets/assets3.png",
+      "image": "../assets/assets3.png",
       "title": "Collect Donation",
       "subtitle": "Help us by donating",
       "description": "There are many variations of passage of Lorem Ipsum available, but the majority have suffered alteration"

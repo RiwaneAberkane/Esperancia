@@ -1,99 +1,119 @@
-.card {
-    background: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .card-image {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-  }
-  
-  .progress-container {
-    display: flex;
-    justify-content: center;
-    margin: 16px 0;
-  }
-  
-  .progress-circle {
-    position: relative;
-    width: 64px;
-    height: 64px;
-  }
-  
-  .progress-svg {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .progress-bg {
-    fill: none;
-    stroke: #e5e7eb;
-    stroke-width: 4;
-  }
-  
-  .progress-bar {
-    fill: none;
-    stroke: #facc15;
-    stroke-width: 4;
-    stroke-linecap: round;
-    transform: rotate(-90deg);
-    transform-origin: 50% 50%;
-    transition: stroke-dasharray 0.5s ease-in-out;
-  }
-  
-  .progress-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
-  .card-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .card-description {
-    font-size: 14px;
-    color: #666;
-    margin: 8px 0;
-  }
-  
-  .card-donation {
-    font-size: 14px;
-    font-weight: bold;
-    color: #444;
-  }
-  
-  .card-buttons {
-    /* display: flex;
-    justify-content: space-between; */
-    margin-top: 16px;
-    width: 100%;
-  }
-  
-  .donate-button,
-  .details-button {
-    padding: 8px 12px;
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    width: 50%;
-  }
-  
-  .donate-button {
-    background: #facc15;
-    color: white;
-  }
-  
-  .details-button {
-    background: #e5e7eb;
-    color: #333;
-  }
-  
+.cardDonation {
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 470px;
+  margin-bottom: 100px;
+  position: relative; /* Ajout de position relative pour permettre le positionnement absolu à l'intérieur */
+  border-radius: 3%;
+}
+
+.card-image {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  position: relative; /* Ajout de position relative pour l'ancrage du cercle */
+  border-radius: 3% 3% 0% 0%;
+}
+
+.progress-container {
+  position: absolute;
+  bottom: 340px; /* Ajuste la position du cercle en bas de l'image */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  z-index: 1; /* Assure que le cercle de progression soit visible par-dessus l'image */
+}
+
+.progress-circle {
+  position: relative;
+  width: 84px;
+  height: 84px;
+}
+
+.progress-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.progress-bg {
+  fill: none;
+  stroke: #e5e7eb;
+  stroke-width: 4;
+}
+
+.progress-bar {
+  fill: none;
+  stroke: #facc15;
+  stroke-width: 4;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dasharray 0.5s ease-in-out;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 19px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 60px;
+}
+
+.card-description {
+  font-size: 23px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.card-donation {
+  font-size: 19px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 60px;
+}
+
+.card-buttons {
+  width: 100%;
+}
+
+.donate-button,
+.details-button {
+  padding: 8px 12px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.088);
+  width: 50%;
+  height: 70px;
+}
+
+.donate-button {
+  background: #facc15;
+  color: white;
+  border-radius: 0% 0% 0% 3%;
+}
+
+.details-button {
+  color: #333;
+  background: white;
+  border-radius: 0% 0% 3% 0%;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.details-button:hover {
+  background: #facc15;
+  color: white;
+}

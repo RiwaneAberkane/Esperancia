@@ -5,7 +5,7 @@ const DonationCard = ({ image, title, description, raised, goal }) => {
     const percentage = Math.min((raised / goal) * 100, 100);
 
     return (
-        <div className="card">
+        <div className="cardDonation">
             <img src={image} alt={title} className="card-image" />
             <div className="progress-container">
                 <div className="progress-circle">

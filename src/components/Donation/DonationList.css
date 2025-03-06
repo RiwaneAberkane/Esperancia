@@ -1,7 +1,48 @@
-.donation-list {
+.donation-list{
+  margin-bottom: 80px;
+}
+
+.donation-list-card {
     display: flex;
-    gap: 16px;
+    gap: 25px;
     justify-content: center;
     flex-wrap: wrap;
   }
   
+  .title-donation-list{
+    text-align: center;
+    font-size: 60px;
+    margin: 130px 0 100px;
+  }
+
+  .span-donation-list{
+    text-decoration: underline;
+    text-decoration-color: #ffd700;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+
+  }
+
+  .center-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .see-all-causes{
+    background-color: white;
+    border: 3px solid #ffd700;
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+    color: #ffd700;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in-out; 
+  }
+
+
+  .see-all-causes:hover{
+    background-color:#ffd700;
+    color: white;
+  }
