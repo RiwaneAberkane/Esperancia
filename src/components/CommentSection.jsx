@@ -28,9 +28,9 @@ const CommentSection = () => {
                 {comments[selectedIndex]}
                 <div className="image-container">
                     {images.map((src, index) => (
-                        <div 
-                            key={index} 
-                            className={`image-wrapper ${selectedIndex === index ? "active" : ""}`} 
+                        <div
+                            key={index}
+                            className={`image-wrapper ${selectedIndex === index ? "active" : ""}`}
                             onClick={() => setSelectedIndex(index)}
                         >
                             <img src={src} alt={`Image ${index + 1}`} />

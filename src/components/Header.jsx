@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+    const [animate, setAnimate] = useState(false);
+
+    useEffect(() => {
+        setAnimate(true);
+    }, []);
+
     return (
         <header className="header">
             <nav className="navbar">
@@ -18,11 +24,19 @@ const Header = () => {
                 </ul>
             </nav>
             <div className="header-content">
-                <h1 className="header-title">One effort, endless possibilities</h1>
-                <p className="header-text">Aidons ensemble à construire un avenir meilleur pour les enfants.</p>
+                <h1 className={`header-title ${animate ? "slide-up" : ""}`}>
+                    One effort, endless possibilities
+                </h1>
+                <p className={`header-text ${animate ? "slide-up" : ""}`}>
+                    Aidons ensemble à construire un avenir meilleur pour les enfants.
+                </p>
                 <div className="buttons">
-                    <button className="volunter">Become a Volunteer</button>
-                    <button className="donate">Donate Now</button>
+                    <button className={`volunter ${animate ? "slide-left" : ""}`}>
+                        Become a Volunteer
+                    </button>
+                    <button className={`donate ${animate ? "slide-right" : ""}`}>
+                        Donate Now
+                    </button>
                 </div>
             </div>
         </header>
